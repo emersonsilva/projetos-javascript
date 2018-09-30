@@ -25,7 +25,6 @@ This is the parent `<div>` that contains the menu and the content area.
 */
 #layout {
     position: relative;
-    left: 0;
     padding-left: 0;
 }
     #layout.active #menu {
@@ -129,7 +128,7 @@ appears on the left side of the page.
     */
     #menu .pure-menu-selected,
     #menu .pure-menu-heading {
-        background: #f47920;
+        background: #1f8dd6;
     }
         /*
         This styles a link within a selected menu item `<li>`.
@@ -246,3 +245,4 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         left: 150px;
     }
 }
+
